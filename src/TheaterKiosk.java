@@ -9,14 +9,14 @@ public class TheaterKiosk
 
         System.out.println("Enter your age: ");
         age = input.nextInt();
-        
 
-        if (age >= 21);
+        if (age >= 21)
         {
             System.out.println("You get a wristband!");
         }
-
-
-
+        else
+        {
+            System.exit(0);
+        }
     }
 }
